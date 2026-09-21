@@ -34,3 +34,13 @@
  - в Keycloak для public-клиента reports-frontend включается standardFlowEnabled, отключаются implicit и direct access grants, задаётся PKCE S256;
 
  - во фронтенде keycloak-js инициализируется с flow: 'standard' и pkceMethod: 'S256'.
+
+ 
+# Задание 2. Разработка сервиса отчётов
+
+## Задача 1. Аархитектура решения для подготовки и получения отчётов. 
+
+1. На архитектурную схему добавлены
+    - Сервис отчётов
+    - Apache Airflow 
+    - Витрина отчётов (ClickHouse)
