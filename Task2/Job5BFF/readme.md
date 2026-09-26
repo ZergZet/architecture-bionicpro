@@ -733,18 +733,18 @@ PASS  Все проверки пройдены успешно.
 
  <details> <summary> Screen тестов </summary>
 
-![TestPassed]( .\screens\testpassed.png )
+![TestPassed]( screens/testpassed.PNG )
 
  </details>
 
   <details> <summary> Данные не найдены </summary>
 
-![NoData]( .\screens\nodata.png )
+![NoData]( screens/nodata.PNG )
 
  </details>
 
   <details> <summary> Отчёт по данным </summary>
 
-![Report]( .\screens\report.png )
+![Report]( screens/report.PNG )
 
  </details>
