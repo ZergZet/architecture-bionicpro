@@ -185,7 +185,7 @@ chmod +x test-xss.sh
 
 <details> <summary> Пример успешного запуска и прогона тестов </summary>
 
-![alt text](.\screens\log.png)
+![test_log]( screens/log.png)
 
  </details>
 
