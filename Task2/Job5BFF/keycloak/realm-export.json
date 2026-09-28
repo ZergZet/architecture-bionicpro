@@ -66,6 +66,7 @@
     { "username":"user_50", "enabled":true, "email":"user_50@prosthetics.example", "emailVerified":true, "credentials":[{"type":"password","value":"password123","temporary":false}], "realmRoles":["user","prothetic_user"] },
     { "username":"admin1",  "enabled":true, "email":"admin1@prosthetics.example",  "emailVerified":true, "credentials":[{"type":"password","value":"admin123","temporary":false}],    "realmRoles":["administrator"] }
   ],
+  "clients": [
     {
       "clientId": "reports-bff",
       "enabled": true,
