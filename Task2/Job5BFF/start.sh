@@ -50,6 +50,9 @@ for _ in $(seq 1 60); do
     sleep 2
 done
 
+echo "==> Включение DAG crm_telemetry_mart..."
+docker compose exec -T airflow-scheduler airflow dags unpause crm_telemetry_mart || true
+
 echo "==> Ожидание готовности BFF..."
 for _ in $(seq 1 60); do
     curl -fsS http://localhost:8000/health >/dev/null 2>&1 && break
